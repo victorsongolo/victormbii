@@ -1,0 +1,7 @@
+.arrows{
+    list-style: none;
+
+}
+.arrows::before{
+    content: "\00BB";
+}

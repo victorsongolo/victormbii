@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.timetable-cell {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.bold {
+    font-weight: bold; /* Apply bold font weight to the days */
+}
+
+.lunch {
+    grid-row: span 2; /* Lunch cell will span two rows */
+    font-size: 24px; /* Larger font size for lunch cell */
+    background-color: rgb(5, 183, 243); /* Optional: Add a background color to the lunch cell */
+}

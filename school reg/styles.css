@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    padding: 20px;
+    position: relative;
+}
+
+.names-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.names-table th,{
+    padding: 10px;
+    border: 1px solid #000000 ;
+}
+.names-table td {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color:aqua;
+}
+
+.names-table th {
+    font-weight: bold;
+    text-align: right; 
+}
+
+.names-table td {
+    text-align: right; 
+}
+
+.names-table .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
